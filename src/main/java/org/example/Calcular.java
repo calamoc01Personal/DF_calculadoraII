@@ -66,8 +66,8 @@ public class Calcular {
         }
     }
     /**
-     * @param numero2  valor de  numero de porcentaje
-     * @return resultado  del valor numero 1 divido entre 100
+     * @param numero2  valor de número de porcentaje
+     * @return resultado del valor número 1 divido entre 100
      * @throws  IllegalArgumentException una excepcion de si divide la operacion en cero
      * */
     public double porcentaje(double numero2){

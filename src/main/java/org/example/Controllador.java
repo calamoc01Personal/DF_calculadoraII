@@ -11,8 +11,6 @@ import javafx.scene.input.KeyEvent;
 /**
  * Controlador de la calculadora que conecta el modelo con la vista.
  * Permite usar la calculadora con el ratón y con el teclado.
- *
- *
  * @author Celia Alamo Calle
  */
 public class Controllador {
@@ -26,25 +24,19 @@ public class Controllador {
     private Button bt1, bt2, bt3, bt4, bt5, bt6, bt7, bt8, bt9, bt0, btsumar, btrestar, btdividir, btigual, btmulti, btborrar, btporcentaje, btpunto;
 
     /**
-     * Creamos el objeto de Calcular que es el modelo
+     * inicializamos el objeto calcular para vincular con el modelo
      */
     private final Calcular calculadora = new Calcular();
 
     /**
-     * Variables de tipo double para los operandos
+     * Variables  de tipo double y String
      */
     private double numero1;
     private double numero2;
 
-    /**
-     * Variable de tipo String para la operación
-     */
-    private String operacion;
+   private String operacion;
 
-    /**
-     * Variable de tipo boolean para saber si hay que limpiar la pantalla
-     */
-    private boolean limpiar = false;
+   private boolean limpiar = false;
 
     /**
      * Combinación de teclas para el botón borrar: Ctrl + L
