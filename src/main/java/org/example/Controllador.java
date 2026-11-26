@@ -217,7 +217,7 @@ public class Controllador {
 
         // evento para detectar si se ha pulsado la combinación "CTRL + L" o se a pulsado enter
 
-        escena.setOnKeyPressed(evento -> {
+        escena.addEventFilter(KeyEvent.KEY_PRESSED, evento -> {
             if (evento.isControlDown() && evento.getCode() == KeyCode.L) {
                 borrar();
                 evento.consume();
@@ -226,7 +226,6 @@ public class Controllador {
                 evento.consume();
             }
         });
-
         /*
          *evento que permite escribir cualquier tecla, con la condicion de si es control lo pasa al evento de la convinaciones
          * y si se ha usado entonces no hace anda
