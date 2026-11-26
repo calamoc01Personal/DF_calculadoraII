@@ -61,8 +61,8 @@
             <Button fx:id="btsumar" mnemonicParsing="false" prefHeight="82.0" prefWidth="200.0" style="-fx-background-color: #4AC7B6; -fx-border-color: #158A7D; -fx-cursor: hand;" text="+" GridPane.columnIndex="3" GridPane.rowIndex="2" />
             <Button fx:id="btrestar" mnemonicParsing="false" prefHeight="82.0" prefWidth="200.0" style="-fx-background-color: #4AC7B6; -fx-border-color: #158A7D; -fx-cursor: hand;" text="-" GridPane.columnIndex="3" GridPane.rowIndex="1" />
             <Button fx:id="btborrar" mnemonicParsing="false" prefHeight="45.0" prefWidth="331.0" style="-fx-background-color: #E7A873; -fx-effect: Reflection; -fx-border-color: #913F12; -fx-cursor: hand;" text="C" GridPane.columnIndex="2" GridPane.columnSpan="2147483647" />
-            <Button fx:id="btporcentaje" mnemonicParsing="false" prefHeight="45.0" prefWidth="301.0" style="-fx-background-color: #E3E3E3; -fx-border-color: #969696; -fx-cursor: hand;" text="\%" GridPane.columnSpan="2147483647" />
-            <Button fx:id="btpunto" mnemonicParsing="false" prefHeight="76.0" prefWidth="150.0" style="-fx-background-color: #E3E3E3; -fx-border-color: #8F8D8D;" text="." GridPane.rowIndex="4">
+            <Button fx:id="btporcentaje" mnemonicParsing="false" prefHeight="45.0" prefWidth="301.0" style="-fx-background-color: #E7A873; -fx-border-color: #913F12; -fx-effect: Reflection; -fx-cursor: hand;" text="\%" GridPane.columnSpan="2147483647" />
+            <Button fx:id="btpunto" mnemonicParsing="false" prefHeight="76.0" prefWidth="150.0" style="-fx-border-color: #8F8D8D;" text="." GridPane.rowIndex="4">
                <font>
                   <Font size="20.0" />
                </font></Button>

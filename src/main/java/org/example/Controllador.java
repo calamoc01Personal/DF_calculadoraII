@@ -113,8 +113,7 @@ public class Controllador {
     }
 
     /**
-     * Metodo que escribe un número o seleciona con e raton  la operacion o número
-     *
+     * Metodo que escribe un número o seleciona con e raton la operacion o número
      * @param texto número o punto que se añade
      */
     private void escribir(String texto) {
