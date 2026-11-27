@@ -1,7 +1,7 @@
-package org.example;
+package org.calculadoraII;
 
 /**
- * Clase con el modelo de la calculadora
+ * Clase con el modelo de la calculadora donde está toda la lógica
  * @author Celia Álamo Calle
  * @version 1.0
  */
